@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dv14q3kk2uq81"]
+
+[node name="tree" type="Node2D"]
+position = Vector2(1006, 110)
+scale = Vector2(1.2, 1.2)
+
+[node name="trunk" type="ColorRect" parent="."]
+offset_left = -140.0
+offset_top = 183.0
+offset_right = -101.0
+offset_bottom = 445.0
+color = Color(0.169362, 0.111823, 0.0980186, 1)
+
+[node name="leaves" type="ColorRect" parent="."]
+offset_left = -226.656
+offset_top = 84.1736
+offset_right = -17.6558
+offset_bottom = 219.174
+color = Color(0.831851, 0.42906, 0.55983, 1)

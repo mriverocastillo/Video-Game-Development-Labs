@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://c8fqyvjkhifme"]
+
+[ext_resource type="Texture2D" uid="uid://cptk2jioenaww" path="res://thumbs-up-cat-meme-7avdmx4bbkkqcrj2.png" id="1_8am1g"]
+[ext_resource type="Texture2D" uid="uid://pki0h1ko38xo" path="res://pngtree-playing-cat-smell-png-image_10035763.png" id="2_vx2uo"]
+[ext_resource type="PackedScene" uid="uid://dv14q3kk2uq81" path="res://tree.tscn" id="3_pcloc"]
+[ext_resource type="Texture2D" uid="uid://dudgw33hodvmb" path="res://cartoon-sun-icon-with-facial-expression-free-png.webp" id="4_8b47y"]
+
+[node name="thumbs up cat" type="Sprite2D"]
+position = Vector2(263, 427)
+scale = Vector2(0.75, 0.703846)
+texture = ExtResource("1_8am1g")
+
+[node name="cat with toy" type="Sprite2D" parent="."]
+z_index = 3
+position = Vector2(773.389, 117.416)
+scale = Vector2(1.23716, 1.18115)
+texture = ExtResource("2_vx2uo")
+
+[node name="tree" parent="." instance=ExtResource("3_pcloc")]
+position = Vector2(798, -229.986)
+
+[node name="tree4" parent="." instance=ExtResource("3_pcloc")]
+position = Vector2(461.333, -493.005)
+
+[node name="tree3" parent="." instance=ExtResource("3_pcloc")]
+z_index = -2
+position = Vector2(36, -633.661)
+
+[node name="tree2" parent="." instance=ExtResource("3_pcloc")]
+position = Vector2(1172, -416.284)
+
+[node name="sun" type="Sprite2D" parent="."]
+position = Vector2(800, -424.809)
+scale = Vector2(0.327211, 0.327211)
+texture = ExtResource("4_8b47y")

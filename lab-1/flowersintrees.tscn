@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://oki7cmbwwjll"]
+
+[ext_resource type="Texture2D" uid="uid://cntxxjdxpptb6" path="res://pngtree-sakura-cherry-blossom-flower-png-image_10187294.png" id="1_6rlw3"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(3.33335, -497.09)
+scale = Vector2(0.292592, 0.292592)
+texture = ExtResource("1_6rlw3")
