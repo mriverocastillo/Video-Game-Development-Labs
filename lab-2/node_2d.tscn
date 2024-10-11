@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdtgg7fvpf8tl"]
+
+[ext_resource type="Texture2D" uid="uid://dc6ti5x25rp0m" path="res://icon.svg" id="1_5cqk1"]
+[ext_resource type="Texture2D" uid="uid://bcm68cqo634ti" path="res://cartoon-sun-icon-with-facial-expression-free-png.webp" id="2_hyatr"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-1, 7)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(536, 541)
+texture = ExtResource("1_5cqk1")
+
+[node name="Node2D" type="Node2D" parent="Icon"]
+position = Vector2(-506, -305)
+
+[node name="ColorRect2" type="ColorRect" parent="Icon/Node2D"]
+offset_left = 254.0
+offset_top = 139.0
+offset_right = 294.0
+offset_bottom = 391.0
+color = Color(0.356971, 0.174226, 0.0401841, 1)
+
+[node name="ColorRect" type="ColorRect" parent="Icon/Node2D"]
+offset_left = 149.0
+offset_top = -40.0
+offset_right = 411.0
+offset_bottom = 137.0
+color = Color(0.3251, 0.693828, 0.309597, 1)
+
+[node name="Node2D2" type="Node2D" parent="Icon"]
+position = Vector2(-30, -299)
+
+[node name="ColorRect2" type="ColorRect" parent="Icon/Node2D2"]
+offset_left = 254.0
+offset_top = 139.0
+offset_right = 294.0
+offset_bottom = 391.0
+color = Color(0.356971, 0.174226, 0.0401841, 1)
+
+[node name="ColorRect" type="ColorRect" parent="Icon/Node2D2"]
+offset_left = 149.0
+offset_top = -40.0
+offset_right = 411.0
+offset_bottom = 137.0
+color = Color(0.3251, 0.693828, 0.309597, 1)
+
+[node name="Cartoon-sun-icon-with-facial-expression-free-png" type="Sprite2D" parent="."]
+position = Vector2(1030, 116)
+scale = Vector2(0.239286, 0.239286)
+texture = ExtResource("2_hyatr")
