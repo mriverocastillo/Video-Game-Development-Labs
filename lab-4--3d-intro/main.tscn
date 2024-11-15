@@ -60,7 +60,7 @@ height = 28.9788
 [node name="Node3D" type="Node3D"]
 
 [node name="CSGCylinder3D" type="CSGCylinder3D" parent="."]
-transform = Transform3D(-0.0361727, 0, 0.999346, 0, 1, 0, -0.999346, 0, -0.0361727, -114.932, 67.7219, 207.371)
+transform = Transform3D(-0.950386, 0, 0.311075, 0, 1, 0, -0.311075, 0, -0.950386, -114.932, 67.7219, 207.371)
 use_collision = true
 radius = 67.9261
 height = 126.919
